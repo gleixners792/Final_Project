@@ -20,6 +20,12 @@ body {
 	background-color: #333;
 }
 
+.img-fluid {
+	max-width: 50%;
+	height: auto;
+  }
+
+
 .footer {
 	position: fixed;
 	bottom: 0;
