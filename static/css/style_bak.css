@@ -72,14 +72,14 @@ h1 {
 	margin: 10px auto;
 	display: flex;
 	justify-content: center;
-	text-align: right;
+	text-align:right;
 }
 
-/* .img-fluid{
-	max-width: 200%;
+.img-fluid{
+	max-width: 100%;
 	height: auto;
  	width: auto;
-} */
+}
 
 .footer {
 	width: 100%;
