@@ -47,14 +47,14 @@ body {
 }
 
 .jumbotron1 {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .img-fluid {
 	max-width: 200%;
-	height: 108%;
-	width: 108%;;
+	height: auto;
+	width: auto;
 }
 
 
