@@ -1,23 +1,27 @@
 header {
 	background-color: #FFFFFF;
+
 	/* color: #0a304e; */
  }
- 
+
  h1 {
 	 text-align:center;
+
+	 margin-top:75px;
+	 width:auto;
  }
- 
+
  h2 {
 	 text-align:left;
 	 padding-left: 40px;
  }
- 
+
  h3 {
 	 text-align: justify;
 	 padding: 40px;
 	 font-size: large;
  }
- 
+
  /* .jumbotron {
 	 background-color: #FFFFFF;
 	 margin: 1px auto;
@@ -29,17 +33,22 @@ header {
 	justify-content: center;
 	text-align: right;
 }
- 
+
+
+
  .navbar-brand {
-	 overflow: hidden;
+
 	 background-color: #FFFFFF;
 	 position: fixed;
+	 z-index: 1;
 	 color: #0a304e;
 	 top: 0px;
 	 right: 0px;
+	 padding-bottom: 5px;
 	 min-height: 60px;
+	 width: 100%;
  }
-   
+
  .navbar-brand a {
 	 float: left;
 	 display: flex;
@@ -48,37 +57,55 @@ header {
 	 padding: 8px;
 	 border-right: 1px solid #bbb;
  }
-   
+
  .navbar-brand a:hover {
-	 
+
 	 background-color: #0a304e;
 	 color: white
- } 
- 
+ }
+
  .active {
 	 background-color: #b4d4f1;
    }
- 
- 
+
+
  .container {
+
 	 padding: 20px;
 	 margin-top: 0px;
 	 height: auto;
-	 width: 1000px;
+	 width: 800px;
+
+
+
    }
- 
+
+.child{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
  /* .img-fluid{
 	 max-width: 200%;
 	 height: auto;
 	  width: auto;
  } */
- 
+
  .footer {
 	 width: 100%;
 	 background-color: #ffffff;
 	 /* margin-right: 50px */
  }
- 
+
  .navbar-footer .navbar-text {
 	 color: #0a304e;
 	 margin-right: 40px;
